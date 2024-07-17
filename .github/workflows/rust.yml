@@ -13,7 +13,7 @@ on:
 env:
   CARGO_TERM_COLOR: always
   RUST_VERSION: 1.67.1
-  HEAD_REF: {{ github.head_ref }}
+  HEAD_REF: ${{ github.head_ref }}
 
 jobs:
   test:
